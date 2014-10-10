@@ -63,6 +63,7 @@
   .run(function($state){
     $state.go('wines');
     $state.go('movies');
+    $state.go('home');
   });
 
   mainApp.controller('MainController',function($scope){
