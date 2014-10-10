@@ -39,6 +39,8 @@ PHP and Angular App Setup
 1. Download and Run MAMP or MAMP Pro.
 2. Set Root Directory to the `resting-template` Directory: Hosts > General > Document Root > Set to `resting-template`
 3. Set Index permissions: Hosts > Extended > Check: `Indexes` and Check: `SymLinksIfOwnerMatch`
+5. Create SQL Database: [Load PHPmyAdmin](http://localhost:8888/phpmyadmin/) > New > Enter: data > create > SQL Tab > Copy/Paste Cellar.sql > Go
+6. Create New User: Home > Users > Add User > `Username: data, Host: localhost, Password: jh43it87` > Global Privilages > Check All > Go
 4. View in browser at [http://localhost:8888/api/php/wines/:id](http://localhost:8888/api/php/wines/1)
 
 
