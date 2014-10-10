@@ -5,6 +5,21 @@ Sleepy API Framework
 
 A basic template for RESTful Web Services in many popular web languages. With an AngularJS front-end template.
 
+##Web Stacks
+
+- PHP Web Service
+* SLIM PHP Framework
+* MySQL
+
+- NodeJS (MEAN) Web Service
+* ExpressJS Framework
+* Mongo Database
+
+- Python Web Service (Coming Soon)
+* Pyramid Web Framework
+* Neo4j Graph Database
+
+
 ##Main Functionality
 
 - GET
@@ -50,7 +65,7 @@ A basic template for RESTful Web Services in many popular web languages. With an
 - Angular Search Function
 - NodeJS Search Function
 - API Authenitcation
-- Python RESTful Web Service
+- Python RESTful Web Service (Pyramid and Neo4j)
 
 =====
 If you have any questions or requests, email us at [schultz.leo@gmail.com](mailto:schultz.leo@gmail.com) and we'll keep updating this to make it perfect.
