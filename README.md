@@ -1,23 +1,24 @@
 Sleepy API Framework
 ================
 
-######resting-template
+###resting-template
 
 A basic template for RESTful Web Services in many popular web languages. With an AngularJS front-end template.
 
-######Main Functionality
+###Main Functionality
 
 - GET
 - POST
 - PUT
 - DELETE
 
-###### Setup on Mac OSX
+### Setup on Mac OSX
 
-NodeJS Setup
+####NodeJS Setup
 -----
 1. Open OSX Terminal.
-2. Install Homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+2. Install Homebrew: 
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 3. Update Homebrew: `brew update`
 4. Install Node: `brew install node`
 5. Install Express: `npm install -g express`
@@ -29,12 +30,12 @@ NodeJS Setup
 11. Start up the server: `node www.js`
 12. View in browser at [http://localhost:8000/api/movies/](http://localhost:8000/api/movies/)
 
-Python Setup
+####Python Setup
 -----
 * Coming Soon!!
 
 
-PHP and Angular App Setup
+####PHP and Angular App Setup
 -----
 1. Download and Run MAMP or MAMP Pro.
 2. Set Root Directory to the `resting-template` Directory: Hosts > General > Document Root > Set to `resting-template`
