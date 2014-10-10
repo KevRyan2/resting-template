@@ -43,6 +43,7 @@ A basic template for RESTful Web Services in many popular web languages. With an
 5. Create SQL Database: [Load PHPmyAdmin](http://localhost:8888/phpmyadmin/) > New > Enter: data > create > SQL Tab > Copy/Paste Cellar.sql > Go
 6. Create New User: Home > Users > Add User > `Username: data, Host: localhost, Password: jh43it87` > Global Privilages > Check All > Go
 4. View in browser at [http://localhost:8888/api/php/wines/:id](http://localhost:8888/api/php/wines/1)
+5. View [Project Interface](http://localhost:8888/#/)
 
 
 If you have any questions or requests, email us at [schultz.leo@gmail.com](mailto:schultz.leo@gmail.com) and we'll keep updating this to make it perfect.
