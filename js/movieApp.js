@@ -78,14 +78,6 @@
     });
   });
 
-  movieApp.factory('Wine',function($resource){
-    return $resource('http://localhost:8888/resting-template/api/php/wines/:id',{id:'@_id'},{
-        update: {
-            method: 'PUT'
-        }
-    });
-  });
-
   movieApp.service('popupService',function($window){
     this.showPopup=function(message){
         return $window.confirm(message);

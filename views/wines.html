@@ -1,0 +1,14 @@
+<a ui-sref="newWine" class="btn-primary btn-lg nodecoration">Add New Wine</a>
+<table class="table winetable">
+    <tr>
+        <td><h3>All Wines</h3></td>
+        <td></td>
+    </tr>
+    <tr ng-repeat="wine in wines">
+        <td>{{wine.title}}</td>
+        <td>
+            <a class="btn btn-primary" ui-sref="viewWine({id:wine._id})">View</a>
+            <a class="btn btn-danger"  ng-click="deleteWine(wine)">Delete</a>
+        </td>
+    </tr>
+</table>
