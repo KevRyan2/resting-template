@@ -45,5 +45,12 @@ A basic template for RESTful Web Services in many popular web languages. With an
 4. View in browser at [http://localhost:8888/api/php/wines/:id](http://localhost:8888/api/php/wines/1)
 5. View [Project Interface](http://localhost:8888/#/)
 
+## Next Gen Features to Add
 
+- Angular Search Function
+- NodeJS Search Function
+- API Authenitcation
+- Python RESTful Web Service
+
+=====
 If you have any questions or requests, email us at [schultz.leo@gmail.com](mailto:schultz.leo@gmail.com) and we'll keep updating this to make it perfect.
