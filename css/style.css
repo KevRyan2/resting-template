@@ -1,0 +1,25 @@
+/* Developed by Leo Schultz - 10/10/2014 */
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.top-buffer{
+    margin-top:10px;
+}
+
+.movietable tr td:nth-child(2){
+    width: 150px;
+}
+
+.movietable tr:nth-child(1) td{
+    border-top: none;
+}
+a.nodecoration{
+    text-decoration:none;
+}
