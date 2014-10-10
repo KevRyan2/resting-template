@@ -1,6 +1,7 @@
 <?php
 
 require 'Slim/Slim.php';
+header('Content-Type: application/json');
 
 $app = new Slim();
 

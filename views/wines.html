@@ -5,9 +5,9 @@
         <td></td>
     </tr>
     <tr ng-repeat="wine in wines">
-        <td>{{wine.title}}</td>
+        <td>{{wine.name}}</td>
         <td>
-            <a class="btn btn-primary" ui-sref="viewWine({id:wine._id})">View</a>
+            <a class="btn btn-primary" ui-sref="viewWine({id:wine.id})">View</a>
             <a class="btn btn-danger"  ng-click="deleteWine(wine)">Delete</a>
         </td>
     </tr>

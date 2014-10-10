@@ -1,6 +1,4 @@
-/**
- * Created by Sandeep on 01/06/14.
- */
+/* Developed by Leo Schultz - 10/10/2014 */
 
 var app = require('../app');
 
