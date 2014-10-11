@@ -2,9 +2,9 @@
 <table class="table movietable">
     <tr>
         <td><h3>All Movies</h3></td>
-        <td></td>
+        <td><input type="text" ng-model="dataFilter" placeholder="Search..."/></td>
     </tr>
-    <tr ng-repeat="movie in movies">
+    <tr ng-repeat="movie in movies | filter: dataFilter">
         <td>{{movie.title}}</td>
         <td>
             <a class="btn btn-primary" ui-sref="viewMovie({id:movie._id})">View</a>

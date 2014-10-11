@@ -86,6 +86,10 @@
 
   mainApp.controller('MovieViewController',function($scope,$stateParams,Movie){
     $scope.movie=Movie.get({id:$stateParams.id});
+    $scope.searchFilter = function (movie) {
+      var keyword = new RegExp($scope.dataFilter, 'i');
+      return !$scope.dataFilter || keyword.test(movie.title) || keyword.test(movie.director) || keyword.test(movie.releaseYear) || keyword.test(movie.genre);
+    };
   });
 
   mainApp.controller('MovieCreateController',function($scope,$state,$stateParams,Movie){
@@ -122,6 +126,10 @@
 
   mainApp.controller('WineViewController',function($scope,$stateParams,Wine){
     $scope.wine=Wine.get({id:$stateParams.id});
+    $scope.searchFilter = function (wine) {
+      var keyword = new RegExp($scope.dataFilter, 'i');
+      return !$scope.dataFilter || keyword.test(wine.name) || keyword.test(wine.grapes) || keyword.test(wine.region) || keyword.test(wine.description);
+    };
   });
 
   mainApp.controller('WineCreateController',function($scope,$state,$stateParams,Wine){

@@ -26,6 +26,7 @@ A basic template for RESTful Web Services in many popular web languages. With an
 - POST
 - PUT
 - DELETE
+- SEARCH
 
 ## Setup on Mac OSX
 
@@ -62,9 +63,8 @@ A basic template for RESTful Web Services in many popular web languages. With an
 
 ## Next Gen Features to Add
 
-- Angular Search Function
-- NodeJS Search Function
 - API Authenitcation
+- NodeJS API Search Query Function
 - Python RESTful Web Service (Pyramid and Neo4j)
 
 =====
