@@ -63,7 +63,9 @@ A basic template for RESTful Web Services in many popular web languages. With an
 
 ## Next Gen Features to Add
 
+- Store Image and File Uploads
 - API Authenitcation
+- Update Front-end Design
 - NodeJS API Search Query Function
 - Python RESTful Web Service (Pyramid and Neo4j)
 
