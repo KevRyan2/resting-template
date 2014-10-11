@@ -7,15 +7,15 @@ A basic template for RESTful Web Services in many popular web languages. With an
 
 ##Web Stacks
 
-- PHP Web Service
+######PHP Web Service
 * SLIM PHP Framework
 * MySQL
 
-- NodeJS (MEAN) Web Service
+######NodeJS (MEAN) Web Service
 * ExpressJS Framework
 * Mongo Database
 
-- Python Web Service (Coming Soon)
+######Python Web Service (Coming Soon)
 * Pyramid Web Framework
 * Neo4j Graph Database
 
