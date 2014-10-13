@@ -44,9 +44,11 @@ function getWine($id) {
 
 function addWine() {
 	error_log('addWine\n', 3, '/var/tmp/php.log');
+	$path = "uploads/";
+	$valid_formats = array("jpg", "png", "gif", "bmp","jpeg");
 	$request = Slim::getInstance()->request();
 	$wine = json_decode($request->getBody());
-	$sql = "INSERT INTO wine (name, grapes, country, region, year, description) VALUES (:name, :grapes, :country, :region, :year, :description)";
+	$sql = "INSERT INTO wine (name, grapes, country, region, year, description, picture) VALUES (:name, :grapes, :country, :region, :year, :description, :picture)";
 	try {
 		$db = getConnection();
 		$stmt = $db->prepare($sql);  
@@ -56,6 +58,7 @@ function addWine() {
 		$stmt->bindParam("region", $wine->region);
 		$stmt->bindParam("year", $wine->year);
 		$stmt->bindParam("description", $wine->description);
+		$stmt->bindParam("picture", $wine->picture);
 		$stmt->execute();
 		$wine->id = $db->lastInsertId();
 		$db = null;
