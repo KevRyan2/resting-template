@@ -4,6 +4,8 @@ require 'Slim/Slim.php';
 header('Content-Type: application/json');
 
 $app = new Slim();
+// $app->add(new MyMiddlewareCache($db));
+// $app->add(new MyMiddlewareAuth($db));
 
 $app->get('/wines', 'getWines');
 $app->get('/wines/:id',	'getWine');
